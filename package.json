@@ -1,0 +1,26 @@
+{
+  "name": "elm-ihp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel package/index.js --out-dir static/elm",
+    "build": "parcel build package/index.js --out-dir static/elm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodeFant/elm-ihp-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodeFant/elm-ihp-test/issues"
+  },
+  "homepage": "https://github.com/kodeFant/elm-ihp-test#readme",
+  "devDependencies": {
+    "elm-hot": "^1.1.5",
+    "node-elm-compiler": "^5.0.5",
+    "parcel-bundler": "^1.12.4"
+  }
+}
