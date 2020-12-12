@@ -24,5 +24,5 @@ include ${IHP}/Makefile.dist
 
 
 static/elm/index.js:
-    NODE_ENV=production npm ci
-    NODE_ENV=production yarn build
+	NODE_ENV=production npm ci
+	NODE_ENV=production npm run build
