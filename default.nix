@@ -14,7 +14,7 @@ let
             p.ihp
         ];
         otherDeps = p: with p; [
-            nodejs elmPackages.elm
+            nodejs
         ];
         projectPath = ./.;
     };
